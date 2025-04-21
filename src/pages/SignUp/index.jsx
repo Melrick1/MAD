@@ -3,7 +3,7 @@ import {StyleSheet, View} from 'react-native';
 import {Button, Gap} from '../../components/atoms/';
 import {Header, Profile, TextInput} from '../../components/molecules/';
 
-const SignUp = () => {
+const SignUp = ({navigation}) => {
   return (
     <View style={styles.pageContainer}>
       <Header title="Sign Up" />
